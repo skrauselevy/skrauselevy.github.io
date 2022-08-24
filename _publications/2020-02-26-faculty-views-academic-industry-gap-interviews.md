@@ -1,8 +1,8 @@
 ---
 title: "Faculty Views on the Goals of an Undergraduate CS Education and the Academia-Industry Gap"
 collection: publications
-permalink: /publication/2020-02-26-academic-industry-qual.md
-excerpt: ''
+permalink: /publication/2020-02-26-faculty-views-on-the-goals-of-an-undergraduate-cs-education-and-the-academia-industry-gap
+excerpt: 'Academia-Industry Gap'
 date: 2020-02-26
 venue: 'Proceedings of the 51st ACM Technical Symposium on Computer Science Education'
 paperurl: 'https://dl.acm.org/doi/10.1145/3328778.3366867'
