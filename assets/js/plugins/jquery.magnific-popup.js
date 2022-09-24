@@ -858,7 +858,7 @@ $.magnificPopup = {
 	defaults: {
 
 		// Info about options is in docs:
-		// http://dimsemenov.com/plugins/magnific-popup/documentation.html#options
+		// https://dimsemenov.com/plugins/magnific-popup/documentation.html#options
 
 		disableOn: 0,
 
