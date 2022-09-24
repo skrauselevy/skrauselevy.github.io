@@ -1,12 +1,12 @@
 ---
-title: "Computer Organization and Systems Programming (C and ARM)"
+title: "Intro to Programming in Python then Java using Media Computation"
 collection: publications
 pubtype: textbook
-permalink: /publication/2020-10-02-computer-organization-systems-programming
-excerpt: 'Computer Organization and Systems Programming (C and ARM)'
-date: 2020-10-02
+permalink: /publication/2020-01-07-intro-to-programming
+excerpt: 'Intro to Programming in Python then Java using Media Computation'
+date: 2020-01-07
 venue: 'Stepik'
-paperurl: 'https://stepik.org/course/74320/info'
+paperurl: 'https://stepik.org/course/62197/info'
 ---
 
 TODO

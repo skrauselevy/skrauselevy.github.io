@@ -5,10 +5,11 @@ permalink: /awards/
 author_profile: true
 ---
 
-<center><a href="#funding">Funding</a> – <a href="#honors-awards">Honors/Awards</a> – <a href="#conference-awards">Conference Awards</a></center>
+<!-- <a href="#funding">Funding</a> –  -->
+<center><a href="#honors-awards">Honors/Awards</a> – <a href="#conference-awards">Conference Awards</a></center>
 
 {% include base_path %}
-
+<!-- 
 <h2 id="funding">Funding</h2>
 <ul>{% for post in site.awards reversed %}
   {% if post.awardtype == 'funding' %}
@@ -23,7 +24,7 @@ author_profile: true
   {% endif %}
 {% endfor %}</ul>
 
-<center>— <a href="#top">Top</a> —</center>
+<center>— <a href="#top">Top</a> —</center> -->
 
 <h2 id="honors-awards">Honors/Awards</h2>
 <ul>{% for post in site.awards reversed %}
