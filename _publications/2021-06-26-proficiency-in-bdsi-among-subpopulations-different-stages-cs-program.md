@@ -1,9 +1,9 @@
 ---
-title: "Proficiency in Basic Data Structures among Various Subpopulations of Students at Different Stages in a CS Program"
+title: "Proficiency in Basic Data Structures among Various Subpopulations of Students at Different Stages in a CS Program (Best Paper Award Finalist)"
 collection: publications
 pubtype: paper
 permalink: /publication/2021-06-26-proficiency-in-bdsi-among-subpopulations-different-stages-cs-program
-excerpt: 'Proficiency in Basic Data Structures among Various Subpopulations of Students at Different Stages in a CS Program'
+excerpt: 'Proficiency in Basic Data Structures among Various Subpopulations of Students at Different Stages in a CS Program (Best Paper Award Finalist)'
 date: 2021-06-26
 venue: "ITiCSE '21: Proceedings of the 26th ACM Conference on Innovation and Technology in Computer Science Education"
 paperurl: 'https://dl.acm.org/doi/10.1145/3430665.3456337'

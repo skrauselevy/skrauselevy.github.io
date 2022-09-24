@@ -1,9 +1,9 @@
 ---
-title: "A Demographic Analysis on Prerequisite Preparation in an Advanced Data Structures Course"
+title: "A Demographic Analysis on Prerequisite Preparation in an Advanced Data Structures Course (CER Best Paper Award)"
 collection: publications
 pubtype: paper
 permalink: /publication/2022-02-22-prerequisite-preparation-demographic-analysis
-excerpt: 'A Demographic Analysis on Prerequisite Preparation in an Advanced Data Structures Course'
+excerpt: 'A Demographic Analysis on Prerequisite Preparation in an Advanced Data Structures Course (CER Best Paper Award)'
 date: 2022-02-22
 venue: "SIGCSE '22: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education"
 paperurl: 'https://dl.acm.org/doi/10.1145/3478431.3499337'

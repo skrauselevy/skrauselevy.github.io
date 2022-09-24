@@ -8,7 +8,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-<center><a href="#education">Education</a> – <a href="#reviewer">Reviewer</a> – <a href="#institutional-service">Institutional Service</a> – <a href="#organizations">Organizations</a> – <a href="#outreach">Outreach</a></center>
+<center><a href="#education">Education</a> – <a href="#work">Work Experience</a> – <a href="#reviewer">Reviewer</a> – <a href="#institutional-service">Institutional Service</a> – <a href="#organizations">Organizations</a> – <a href="#outreach">Outreach</a></center>
 
 <!-- <p style="font-size:0.9em">You can download a PDF of my CV <a href="TODO" target="_blank">here</a>.  -->
 
@@ -31,7 +31,20 @@ You can find my education history, reviewer history, institutional service, and 
     <li><a href="https://ucsd.edu/" target="_blank">University of California San Diego</a></li>
     <li>Minor in <a href="https://cse.ucsd.edu/undergraduate/minor-computer-science" target="_blank">Computer Science</a></li>
   </ul>
+  <li><b><u>FU-Best Program (August-December 2015)</u></b></li>
+  <ul style="font-size:0.75em">
+    <li><a href="https://www.fu-berlin.de/en/sites/fubest/index.html" target="_blank">Freie University, Berlin, Germany</a></li>
+  </ul>
 </ul>
+
+<center>— <a href="#top">Top</a> —</center>
+
+<h2 id="work">Work Experience</h2>
+
+<li><b><u>Software Engineer (September 2017-September 2018)</u></b></li>
+  <ul style="font-size:0.75em">
+    <li>DataSense Analytics, San Diego</li>
+  </ul>
 
 <center>— <a href="#top">Top</a> —</center>
 
