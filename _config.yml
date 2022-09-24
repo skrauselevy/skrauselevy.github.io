@@ -195,9 +195,6 @@ collections:
   reviewer:
     output: true
     permalink: /:collection/:path/
-  students:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
