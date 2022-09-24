@@ -15,7 +15,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none; /*underline; */ /* NIEMA REMOVE UNDERLINE FROM HYPERLINKS */
 
     &:hover {
       text-decoration: underline;
