@@ -10,4 +10,6 @@ venue: 'Stepik'
 paperurl: 'https://stepik.org/course/109917/info'
 ---
 
-TODO
+This is a online interactive exercise textbook that follows the syllabus of CSE 12: Basic Data Structures and Object Oriented Design at UC San Diego. The textbook is free for anyone to use. It uses an active learning approach with interactive exercises throughout the readings to allow students to test their knowledge of the material they are learning.
+
+Basic Data Structures and Object Oriented Design: <a href="https://stepik.org/course/109917/info" target="_blank">https://stepik.org/course/109917/info</a>
