@@ -1,5 +1,5 @@
 ---
-title: "Panelist"
+title: "Engineering Overnight Program Graduate Student Panelist"
 collection: talks
 type: "Talk"
 talktype: "campus"

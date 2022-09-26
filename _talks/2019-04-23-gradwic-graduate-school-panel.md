@@ -1,5 +1,5 @@
 ---
-title: "Panelist"
+title: "Graduate Student Panelist"
 collection: talks
 type: "Talk"
 talktype: "campus"

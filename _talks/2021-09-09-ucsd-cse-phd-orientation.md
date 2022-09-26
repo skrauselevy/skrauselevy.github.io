@@ -1,5 +1,5 @@
 ---
-title: "Panelist"
+title: "CSE PhD Orientation Graduate Student Panelist"
 collection: talks
 type: "Talk"
 talktype: "campus"

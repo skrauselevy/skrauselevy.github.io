@@ -12,7 +12,7 @@ redirect_from:
 
 <!-- <p style="font-size:0.9em">You can download a PDF of my CV <a href="TODO" target="_blank">here</a>.  -->
 
-You can find my education history, reviewer history, institutional service, and organization affiliations below, and you can find all other information via the links above (e.g. "Awards", "Publications", etc.).
+You can find my education history, reviewer history, institutional service, and organization affiliations below, and you can find all other information via the links above (e.g. "Awards", "Research", etc.).
 
 <h2 id="education">Education</h2>
 <ul>
