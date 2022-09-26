@@ -5,7 +5,7 @@ type: "Talk"
 talktype: "campus"
 permalink: 2022-09-15-ucsd-cse-ms-orientation
 venue: "UC San Diego CSE Department"
-date: 2021-09-15
+date: 2022-09-15
 location: "La Jolla, California"
 ---
 
