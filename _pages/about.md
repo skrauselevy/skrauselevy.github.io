@@ -12,9 +12,9 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 <b>I am currently on the job market and am looking for academic positions.</b>
 
-<center><a href="#teaching">Teaching</a> – <a href="#awards">Awards</a> –  <a href="#work">Research</a></center>
+<a href="#about-teaching">Teaching</a> – <a href="#about-awards">Awards</a> –  <a href="#about-research">Research</a>
 
-<h2 id="#teaching">Teaching</h2>
+<h2 id="about-teaching">Teaching</h2>
 
 {% include base_path %}
 
@@ -40,7 +40,7 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 {% include base_path %}
 
-<h2 id="#awards">Awards</h2>
+<h2 id="about-awards">Awards</h2>
 
 <h3 id="honors-awards">Honors/Awards</h3>
 <ul>{% for post in site.awards reversed %}
@@ -78,6 +78,7 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 <center>— <a href="#top">Top</a> —</center>
 
+<h2 id="about-research">Research</h2>
 
 {% include base_path %}
 
