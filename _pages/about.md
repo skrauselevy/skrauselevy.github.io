@@ -12,31 +12,9 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 <b>I am currently on the job market and am looking for academic positions.</b>
 
+<center><a href="#awards">Awards</a> –<a href="#teaching">Teaching</a> – <a href="#work">Work Experience</a> – <a href="#reviewer">Reviewer</a> – <a href="#institutional-service">Institutional Service</a> – <a href="#organizations">Organizations</a> – <a href="#outreach">Outreach</a></center>
 
-<!-- <center><a href="#online">Online Courses</a> – -->
-
-
-<!-- <h2 id="online">Online Courses</h2>
-{% assign online_courses = site.teaching | where: 'location', 'online' | sort: 'startdate' %}
-<ul>{% for post in online_courses reversed %}
-  <li>
-    {% assign tmp = post.title %}
-    {% if post.coursenum %}
-      {% assign tmp = post.coursenum | append: ': ' | append: tmp %}
-    {% endif %}
-    {% assign tmp = '<a style="text-decoration:underline" href="' | append: post.courseurl | append: '" target="_blank">' | append: tmp | append: '</a>' %}
-    <b>{{ tmp }}</b>
-    <ul style="font-size:0.75em">
-      {% if post.instructors %}
-        <li><u>Instructors</u>: {{ post.instructors }}</li>
-      {% endif %}
-      <li><u>Duration</u>: {{ post.startdate }} to {{ post.enddate }}</li>
-    </ul>
-  </li>
-{% endfor %}</ul>
-
-<center>— <a href="#top">Top</a> —</center> -->
-<h2 id="#teaching">Teaching Experience</h2>
+<h2 id="#teaching">Teaching</h2>
 
 {% include base_path %}
 
@@ -56,6 +34,46 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
       <li><u>Quarters</u>: {{ post.quarters }}</li>
     </ul>
   </li>
+{% endfor %}</ul>
+
+<center>— <a href="#top">Top</a> —</center>
+
+{% include base_path %}
+
+<h2 id="#awards">Awards</h2>
+
+<h3 id="honors-awards">Honors/Awards</h3>
+<ul>{% for post in site.awards reversed %}
+  {% if post.awardtype == 'honor' %}
+    <li>
+      <a style="text-decoration:underline" href="{{ post.awardurl }}" target="_blank"><b>{{ post.title }}</b></a>
+      <ul style="font-size:0.75em">
+        <li><u>Award Date</u>: {{ post.startdate }}</li>
+        <li><u>Awarder</u>: {{ post.awarder }}</li>
+        {% if post.videourl %}
+          <li><u>Video</u>: <a href="{{ post.videourl }}" target="_blank">{{ post.videourl }}</a></li>
+        {% endif %}
+      </ul>
+    </li>
+  {% endif %}
+{% endfor %}</ul>
+
+<center>— <a href="#top">Top</a> —</center>
+
+<h3 id="conference-awards">Conference Awards</h3>
+<ul>{% for post in site.awards reversed %}
+  {% if post.awardtype == 'conference' %}
+    <li>
+      <a style="text-decoration:underline" href="{{ post.awardurl }}" target="_blank"><b>{{ post.title }}</b></a>
+      <ul style="font-size:0.75em">
+        <li><u>Award Date</u>: {{ post.startdate }}</li>
+        <li><u>Awarder</u>: {{ post.awarder }}</li>
+        {% if post.videourl %}
+          <li><u>Video</u>: <a href="{{ post.videourl }}" target="_blank">{{ post.videourl }}</a></li>
+        {% endif %}
+      </ul>
+    </li>
+  {% endif %}
 {% endfor %}</ul>
 
 <center>— <a href="#top">Top</a> —</center>
