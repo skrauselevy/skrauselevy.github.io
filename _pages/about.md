@@ -12,7 +12,7 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 <b>I am currently on the job market and am looking for academic positions.</b>
 
-<center><a href="#awards">Awards</a> –<a href="#teaching">Teaching</a> – <a href="#work">Work Experience</a> – <a href="#reviewer">Reviewer</a> – <a href="#institutional-service">Institutional Service</a> – <a href="#organizations">Organizations</a> – <a href="#outreach">Outreach</a></center>
+<center><a href="#awards">Awards</a> –<a href="#teaching">Teaching</a> – <a href="#work">Research</a></center>
 
 <h2 id="#teaching">Teaching</h2>
 
@@ -58,7 +58,7 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
   {% endif %}
 {% endfor %}</ul>
 
-<center>— <a href="#top">Top</a> —</center>
+<!-- <center>— <a href="#top">Top</a> —</center> -->
 
 <h3 id="conference-awards">Conference Awards</h3>
 <ul>{% for post in site.awards reversed %}
@@ -75,5 +75,35 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
     </li>
   {% endif %}
 {% endfor %}</ul>
+
+<center>— <a href="#top">Top</a> —</center>
+
+
+{% include base_path %}
+
+<h3 id="textbooks">Textbooks</h3>
+<ol reversed>{% for post in site.publications reversed %}
+  {% if post.pubtype == 'textbook' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ol>
+
+<!-- <center>— <a href="#top">Top</a> —</center> -->
+
+<h3 id="papers-articles">Papers</h3>
+<ol reversed>{% for post in site.publications reversed %}
+  {% if post.pubtype == 'paper' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ol>
+
+<!-- <center>— <a href="#top">Top</a> —</center> -->
+
+<h3 id="conference-presentations">Conference Workshops</h3>
+<ol reversed>{% for post in site.publications reversed %}
+  {% if post.pubtype == 'conference' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ol>
 
 <center>— <a href="#top">Top</a> —</center>
