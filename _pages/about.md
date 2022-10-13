@@ -12,7 +12,7 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 <b>I am currently on the job market and am looking for academic positions.</b>
 
-<center><a href="#awards">Awards</a> –<a href="#teaching">Teaching</a> – <a href="#work">Research</a></center>
+<center><a href="#teaching">Teaching</a> – <a href="#awards">Awards</a> –  <a href="#work">Research</a></center>
 
 <h2 id="#teaching">Teaching</h2>
 
