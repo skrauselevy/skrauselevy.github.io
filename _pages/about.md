@@ -14,9 +14,7 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 
 
 <!-- <center><a href="#online">Online Courses</a> – -->
-<center><a href="#ucsd">University of California San Diego</a></center>
 
-{% include base_path %}
 
 <!-- <h2 id="online">Online Courses</h2>
 {% assign online_courses = site.teaching | where: 'location', 'online' | sort: 'startdate' %}
@@ -38,8 +36,11 @@ My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https:/
 {% endfor %}</ul>
 
 <center>— <a href="#top">Top</a> —</center> -->
+<h2 id="#teaching">Teaching Experience</h2>
 
-<h2 id="ucsd">University of California San Diego</h2>
+{% include base_path %}
+
+<h3 id="ucsd">University of California San Diego</h3>
 {% assign ucsd_courses = site.teaching | where: 'location', 'ucsd' | sort: 'coursenum' %}
 <ul>{% for post in ucsd_courses %}
   <li>
