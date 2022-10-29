@@ -7,7 +7,7 @@ excerpt: 'A Demographic Analysis on Prerequisite Preparation in an Advanced Data
 date: 2022-02-22
 venue: "SIGCSE '22: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education"
 paperurl: 'https://dl.acm.org/doi/10.1145/3478431.3499337'
-citation: '<b>Sophia Krause-Levy</b>, Sander Valstar, Leo Porter, and William G. Griswold. 2022. A Demographic Analysis on Prerequisite Preparation in an Advanced Data Structures Course. <i>In Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE)</i>. 661–667. <a href="https://dl.acm.org/doi/10.1145/3478431.3499337" target="_blank">doi/10.1145/3478431.3499337</a><b>(CER Best Paper Award)</b>'
+citation: '<b>Sophia Krause-Levy</b>, Sander Valstar, Leo Porter, and William G. Griswold. 2022. A Demographic Analysis on Prerequisite Preparation in an Advanced Data Structures Course. <i>In Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE)</i>. 661–667. <a href="https://dl.acm.org/doi/10.1145/3478431.3499337?cid=99659505721" target="_blank">doi/10.1145/3478431.3499337</a><b>(CER Best Paper Award)</b>'
 ---
 
 Previous work in computing has shown that Black, Latinx, Native American and Pacific islander (BLNPI), women, first-generation, and transfer students tend to have worse outcomes during their time in university compared to their majority counterparts. Previous work has also found that students' incoming prerequisite course proficiency is positively correlated with their outcomes in a course. In this work, we investigate the role that prerequisite course proficiency has on outcomes between these groups of students.
