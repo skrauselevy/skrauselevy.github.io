@@ -10,7 +10,7 @@ redirect_from:
 
 My name is Sophia Krause-Levy and I am a Ph.D. Candidate in the <a href="https://cse.ucsd.edu/" target="_blank">Computer Science & Engineering Department</a> at the <a href="https://ucsd.edu/" target="_blank">University of California San Diego (UCSD)</a>. My research focuses on finding ways to improve how we teach computer science. I seek to uncover barriers faced by different populations of students studying computing. By uncovering and remedying those barriers, I believe we can provide an environment that supports all students.
 
-<b>I am currently on the job market and am looking for academic positions (for Fall 2023).</b>
+I will be starting as an Assistant Professor at the University of San Diego this fall.
 
 <a href="#about-teaching">Teaching</a> – <a href="#about-awards">Awards</a> –  <a href="#about-research">Research</a>
 
