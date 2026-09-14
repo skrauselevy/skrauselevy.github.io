@@ -18,6 +18,24 @@ I will be starting as an Assistant Professor at the University of San Diego this
 
 {% include base_path %}
 
+<h3 id="usd">University of San Diego</h3>
+{% assign usd_courses = site.teaching | where: 'location', 'usd' | sort: 'coursenum' %}
+<ul>{% for post in usd_courses %}
+  <li>
+    {% assign tmp = '' %}
+    {% if post.coursenum %}
+      {% assign coursenum_split = post.coursenum | split: ' ' %}
+      {% assign coursenum_numstrip = coursenum_split[1] | prepend: '!' | replace: '!00', '!' | replace: '!0', '!' | remove: '!' %}
+      {% assign tmp = coursenum_split[0] | append: ' ' | append: coursenum_numstrip | append: ': ' | append: post.title | replace: ' : ', ': ' %}
+    {% endif %}
+    {% assign tmp = '<a style="text-decoration:underline" href="' | append: post.courseurl | append: '" target="_blank">' | append: tmp | append: '</a>' %}
+    <b>{{ tmp }}</b>
+    <ul style="font-size:0.75em">
+      <li><u>Semesters</u>: {{ post.semesters }}</li>
+    </ul>
+  </li>
+{% endfor %}</ul>
+
 <h3 id="ucsd">University of California San Diego</h3>
 {% assign ucsd_courses = site.teaching | where: 'location', 'ucsd' | sort: 'coursenum' %}
 <ul>{% for post in ucsd_courses %}
