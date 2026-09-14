@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Sophia Krause-Levy"
   avatar           : "profile.png"
-  bio              : "PhD Candidate"
-  location         : "Computer Science, UCSD"
+  bio              : "Assistant Professor"
+  location         : "Computer Science, University of San Diego"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=J3SjlsYAAAAJ"
-  email            :  "mailto:skrausel@eng.ucsd.edu"
+  email            :  "mailto:skrauselevy@sandiego.edu"
   researchgate     :  "https://www.researchgate.net/profile/Sophia-Krause-Levy"
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   impactstory      : 
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6810-8590"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
